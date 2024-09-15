@@ -45,6 +45,7 @@ body > header {
     background-color: darkgoldenrod;
     grid-area: menu;
     align-items: left;
+    display: flex;
 }
 
 #nav-ul{
