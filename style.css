@@ -72,6 +72,8 @@ body > main article {
 }
 #main-content{
     display: flex;
+    padding: 32px;
+    grid-area: main;
 }
 #main-content >div{
     width: 70%;
@@ -86,8 +88,13 @@ h2{
     text-align: center;
 }
 body > footer{
-    background-color: orange;
     display: flex;
+    padding: 16px;
+    background-color: orange;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    grid-area: footer;
 }
 img{ 
     border-radius: 50%;
