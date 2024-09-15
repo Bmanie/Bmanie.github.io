@@ -32,7 +32,7 @@ ul{
     margin: 0px;
 }
 body > header {
-    background-color: orange;
+    background-color: rgb(206, 130, 187);
     color: #ffffff;
     display: flex;
     height: 13vh;
@@ -42,7 +42,7 @@ body > header {
 }
 #menu{
     padding: 32px;
-    background-color: darkgoldenrod;
+    background-color: rgb(186, 102, 145);
     grid-area: menu;
     align-items: left;
     display: flex;
@@ -62,7 +62,7 @@ body>header > nav > ul{
 
 }
 .navbutton{
-    color: white;
+    color: rgba(248, 230, 184, 0.976);
     text-decoration: none;
     padding: 12px;
     border: 1px solid white;
@@ -90,7 +90,7 @@ h2{
 body > footer{
     display: flex;
     padding: 16px;
-    background-color: orange;
+    background-color: rgb(206, 130, 187);;
     color: #ffffff;
     font-weight: bold;
     text-align: center;
@@ -109,7 +109,7 @@ img{
     margin-left: 12px;
 }
 #footer-ul > div >li>a{
-    color: white;
+    color:rgba(248, 230, 184, 0.976);
     text-decoration: none;
     grid-area: footer ;
 }
