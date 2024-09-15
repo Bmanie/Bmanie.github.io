@@ -1,5 +1,5 @@
 body {
-    font-family: helvetica, arial,sans-serif;
+    font-family: fantasy, arial,sans-serif;
     margin: 0px;
     font-size: 1.9vw;
 }
@@ -38,6 +38,7 @@ body > header {
     height: 13vh;
     align-items: center;
     justify-content: space-around;
+    grid-area: header;
 }
 
 #nav-ul{
@@ -84,6 +85,8 @@ body > footer{
 }
 img{ 
     border-radius: 50%;
+    width: 150px;    /* Set the width */
+    height: 150px;    /* Keep the aspect ratio intact */
 }
 #footer-ul{
     display: flex;
@@ -95,4 +98,14 @@ img{
 #footer-ul > div >li>a{
     color: white;
     text-decoration: none;
+    grid-area: footer ;
+}
+#grid-container{
+    display: grid;
+    grid-template-areas:
+    "header header "
+    "menu main"
+    "footer footer"
+    ;
+    grid-template-columns: 1fr 6fr;
 }
