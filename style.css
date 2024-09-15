@@ -71,6 +71,7 @@ body > main article {
 #main-content >div{
     width: 70%;
     justify-content: space-around;
+    grid-area: main;
 }
 form {
     text-align: center;
@@ -85,8 +86,8 @@ body > footer{
 }
 img{ 
     border-radius: 50%;
-    width: 150px;    /* Set the width */
-    height: 150px;    /* Keep the aspect ratio intact */
+    width: 150px;    
+    height: 150px;    
 }
 #footer-ul{
     display: flex;
