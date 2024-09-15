@@ -40,6 +40,11 @@ body > header {
     justify-content: space-around;
     grid-area: header;
 }
+#menu{
+    padding: 32px;
+    background-color: darkgoldenrod;
+    grid-area: menu;
+}
 
 #nav-ul{
     display: flex;
