@@ -71,6 +71,7 @@ body>header > nav > ul{
 body > main article {
     width: 70%;
     margin: auto;
+    background-color: rgb(186, 102, 145);
 }
 
 #main-content >div{
