@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded",() =>{
     const images= document.querySelectorAll("img");
 
     for(const image of images){
-        fetch("https://dog.ceo/api/breeds/image/random")
+        fetch("https://i.pinimg.com/736x/3e/0b/9d/3e0b9d40088209713a37f2b90f6a3b68.jpg")
         .then(response =>response.json())
         .then(data=> {
             image.src = data.message
