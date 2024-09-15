@@ -44,6 +44,7 @@ body > header {
     padding: 32px;
     background-color: darkgoldenrod;
     grid-area: menu;
+    align-items: left;
 }
 
 #nav-ul{
@@ -70,15 +71,13 @@ body > main article {
     width: 70%;
     margin: auto;
 }
-#main-content{
-    display: flex;
-    padding: 32px;
-    grid-area: main;
-}
+
 #main-content >div{
     width: 70%;
     justify-content: space-around;
     grid-area: main;
+    display: flex;
+    padding: 32px;
 }
 form {
     text-align: center;
